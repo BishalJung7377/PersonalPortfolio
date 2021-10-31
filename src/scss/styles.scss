@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./custom";
+// <---------importing components----------->@
+@import "./components/button";
+@import "./components/mixins";
+@import "./components/typography";
+@import "./components/animations";
+/// <=------------Importing sections scss -=------------>
+@import "./sections/navbar";
