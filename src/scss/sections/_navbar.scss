@@ -1,0 +1,39 @@
+@import "../custom";
+@import "../components/mixins";
+.menu {
+    li {
+        padding: 0.5em 1em 0em 1.2em;
+    }
+    a {
+        color: white !important;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+}
+.navItems{
+    li {
+        padding: 0.5em 1em 0em 1.2em;
+    }
+    a {
+        position: relative;
+        color: white !important;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    a:after{
+        content: "";
+        position: absolute;
+        background-color: $primary;
+        height: 3px;
+        width: 0%;
+        left:0%;
+        bottom:-0.01em;
+    }
+    a:hover{
+        color: white;
+    }
+    a:hover:after{
+        width: 100%;
+        transition: 0.3s;
+    }
+}

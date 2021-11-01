@@ -1,5 +1,5 @@
 @import "../custom";
 // <<----Gradient Color mixin-------->
-@mixin GradientColro {
-    background: linear-gradient (49deg, rgba(#00ffea, #5fbfff, #6e71ff, #db28ff));
+@mixin GradientColor {
+    background: linear-gradient (49deg, #00ffea, #5fbfff, #6e71ff, #db28ff);
 }
