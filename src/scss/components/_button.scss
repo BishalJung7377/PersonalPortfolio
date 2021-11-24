@@ -1,0 +1,13 @@
+@import "../custom";
+@import "./mixins";
+
+
+.btn-intro{
+    position:relative;
+    font-weight: 700;
+    border: 0.12em solid $primary;
+    background-color: $darkest-gray;
+    padding: 1em 1em 1em 1em;
+    color: $primary;
+    margin-left: 5%;
+}

@@ -1,0 +1,9 @@
+@import "./custom";
+// <---------importing components----------->
+@import "./components/button";
+@import "./components/mixins";
+@import "./components/typography";
+@import "./components/animations";
+/// <=------------Importing sections scss -=------------>
+@import "./sections/navbar";
+@import "./sections/introsections";
