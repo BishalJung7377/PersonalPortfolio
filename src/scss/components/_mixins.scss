@@ -1,0 +1,5 @@
+@import "../custom";
+// <<----Gradient Color mixin-------->
+@mixin GradientColor {
+    background: linear-gradient (49deg, #00ffea, #5fbfff, #6e71ff, #db28ff);
+}
